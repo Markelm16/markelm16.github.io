@@ -1,6 +1,8 @@
 <html>
     <head>
+        <!-- Orriaren lehioko titulua -->
         <title>Markelen orria</title>
+        <!-- CSS estiloak -->
         <style type="text/css">
             * {
                 font-family: 'Open Sans';
@@ -22,28 +24,36 @@
               font-size: 25px;
             }
 
-        .dark-mode {
-          background-color: black;
-          color: white;
-        }
+            .dark-mode {
+              background-color: black;
+              color: white;
+            }
         </style>
     </head>
     <body>
+        <!-- Titulo handia -->
         <div><h2>Kaixo Mundua!</h2></div>
+        <!-- Paragrafoa -->
         <p>Ongi etorri nire web orrira</p>
+        <!-- Divider-a -->
         <hr>
+        <!-- Beste paragrafo bat -->
         <p>Webgune hontan Aretxabaletako, Eskoriatzako eta Arrasateko datuak ikus ditzakezu.</p>
+        <!-- Lista (Unordered list) -->
         <ul>
+            <!-- Beste dokumentura esteka -->
             <li><a href="aretxabaleta.html">Aretxabaleta</a></li>
             <li><a href="arrasate.html">Arrasate</a></li>
             <li><a href="eskoriatza.html">Eskoriatza</a></li>
             <li><a href="jokua.html">Jokoa</a></li>
         </ul>
         <script>
+            // Argiak pizteko/itzaltzeko JavaScript funtzioa
             function itzaliArgiak() {
                 document.body.classList.toggle("dark-mode");
             }
         </script>
+        <!-- Argiak itzaltzeko/pizteko botoia -->
         <button onclick="itzaliArgiak()">Itzali/Piztu Argiak</button>
     </body>
 </html>
